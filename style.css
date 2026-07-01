@@ -1,0 +1,100 @@
+/* =========================================
+   1. VARIABLES Y FUENTES GLOBALES
+   ========================================= */
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Bungee&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --primary-color: #0d666e;
+    --secondary-color: #52b4b1;
+    --accent-color: #C9A44A;
+    --text-color: #f2f2f2;
+    /* Variable para el texto claro */
+}
+
+/* =========================================
+   2. ESTILOS BASE (Estructura principal)
+   ========================================= */
+
+body {
+    background-color: var(--primary-color);
+    font-family: "Abel", sans-serif;
+    font-weight: 100;
+
+}
+
+/* =========================================
+   3. TIPOGRAFÍA (Títulos, subtítulos y textos)
+   ========================================= */
+
+.texto-normal {
+    font-family: "Abel", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: var(--text-color);
+    /* Mejor contraste */
+}
+
+.item-lista {
+    font-family: "Abel", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: var(--text-color);
+    /* Mejor contraste */
+}
+
+.texto-footer {
+    font-family: "Abel", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: var(--primary-color);
+}
+
+.figure-index {
+    font-family: "Abel", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: var(--secondary-color);
+}
+
+.titulo-principal {
+    font-family: "Abel", sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+
+.subtitulo-principal {
+    font-family: "Abel", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+
+.titulo-secundario {
+    font-family: "Abel", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+
+/* =========================================
+   4. COMPONENTES (Navegación, footer, etc.)
+   ========================================= */
+
+.nav-principal {
+    background-color: var(--secondary-color);
+    width: 100%;
+    font-family: "Abel", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--accent-color);
+}
+
+.footer {
+    background-color: var(--secondary-color);
+    width: 100%;
+    font-family: "Abel", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--accent-color);
+}
